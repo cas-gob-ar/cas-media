@@ -1,0 +1,150 @@
+/* redondeo y color fondo titulo ventana */
+.panel>.panel-heading {
+    background-color: #2772A3 !important;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/* color texto texto titulo ventana */
+.panel>.panel-heading strong {
+    color: white !important;
+}
+
+/* color texto botones titulo ventana */
+.panel-heading ul.options>li>a {
+    color: white !important;
+}
+
+/* hide bottom margin in forms */
+form {
+    margin-bottom: 0px;
+}
+
+/* title bar standard apply */
+.lightbox-ajax h4 {
+    background-color: #2772A3;
+    color: white;
+    padding: 15px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, Sans-Serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* formato barra botones */
+.panel-btn-bar {
+    background-color: rgb(219, 219, 219);
+    padding: 10px;
+}
+
+/* redondeo inferior ventana */
+.panel-body {
+    padding-bottom: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* button action */
+.btn-action {
+    background-color: #1a699d;
+    color: white;
+}
+
+/* button action hover */
+.btn-action:hover {
+    background-color: #1a699d;
+    color: white;
+}
+
+/* table header */
+.table-responsive table>thead>tr>th {
+    text-align: center;
+}
+
+/* table footer */
+.panel table tfoot {
+    background-color: rgba(0, 0, 0, 0.01);
+    color: rgba(0, 0, 0, 0.3);
+}
+
+/* top bar */
+#aside nav ul li a:active,
+#aside nav ul li.menu-open,
+#aside nav ul li.always-open,
+#aside nav>ul>li>a:hover,
+#aside nav>ul>li>a:focus,
+#aside nav ul li.active,
+.fancy-file-upload.fancy-file-primary>span.button,
+.datepicker table tr td.active.active,
+.btn-primary,
+#header,
+.popular .plan-title,
+body.min #aside ul.nav>li>ul li,
+body.min #aside ul.nav li.menu-open,
+body.min #aside ul.nav>li:hover>ul,
+#aside nav ul li a.dashboard,
+#aside .logo,
+body.min #asidesize,
+#aside,
+#asidebg {
+    background-color: #1a699d !important;
+}
+
+/*  */
+
+.infobox-info {
+    background: #1D89CF;
+}
+
+.infobox-success {
+    background: #5CB85C;
+}
+
+.infobox-warning {
+    background: #f4b04f;
+}
+
+.infobox-danger {
+    background: #E66454;
+}
+
+.infobox {
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+
+.infobox-left {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    text-align: center;
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.infobox-right {
+    color: white;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.infobox-right-titulo {
+    font-size: large;
+    margin-bottom: 3px;
+}
+
+.infobox-right-line {
+    background-color: white;
+    width: 100%;
+    height: 1px;
+    margin-bottom: 5px;
+}
+
+.infobox-right-data {
+    background-color: rgba(0, 0, 0, 0.0);
+    font-size: small;
+    border-radius: 5px;
+    padding-right: 5px;
+    margin-right: 5px;
+}
